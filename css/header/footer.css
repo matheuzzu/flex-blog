@@ -1,0 +1,12 @@
+.footer {
+  height: 200px;
+  display: flex;
+  background: var(--blue);
+  align-items: center;
+}
+.footer p {
+  flex: 1;
+  color: var(--white);
+  font-size: 2.2em;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+:root {
+  --black: #222;
+  --white: #fff;
+  --blue: #122ab2;
+  --light-blue: #2c70ff;
+  --gray: #7c7c7c;
+  --light-gray: #ececec;
+  --purple: #ae81ff;
+  --pink: #f9265e;
+  --light-blue-2: #66d9eb;
+}
+
+.black {
+  color: #222;
+}
+.white {
+  color: #fff;
+}
+.blue {
+  color: #122ab2;
+}
+.light-blue {
+  color: #2c70ff;
+}
+.gray{
+  color: #7c7c7c;
+}

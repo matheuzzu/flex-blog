@@ -1,0 +1,60 @@
+.newsletter {
+  background: var(--light-gray);
+  padding: 60px calc((100% - 960px) / 2);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-info {
+  flex: 1 1 240px;
+  margin: 0 10px;
+}
+.newsletter-info h1 {
+  font-size: 3em;
+  color: var(--gray);
+}
+.newsletter-info p {
+  font-size: 1.25em;
+  font-style: italic;
+  max-width: 230px;
+  color: var(--gray);
+  margin-bottom: 10px;
+}
+/* Formulario */
+
+.newsletter-form {
+  flex: 2 1 260px;
+  margin: 0 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.newsletter-form input {
+  flex: 3 1 200px;
+  font-size: 1.25em;
+  color: var(--gray);
+  background: transparent;
+  padding: 15px 10px;
+  font-style: italic;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  border: 4px solid var(--light-blue);
+  border-radius: 0;
+  margin: 0;
+}
+.newsletter-form button {
+  flex: 1 1 260px;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 2.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: var(--light-blue);
+  color: var(--white);
+  cursor: pointer;
+  border: 0px;
+  padding: 15px 10px;
+}
+@media (max-width: 600px) {
+  .newsletter-form button {
+    font-size: 1.5em;
+  }
+}
